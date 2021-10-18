@@ -91,6 +91,10 @@ button:hover{
     background-color: #2DADA5;
     cursor: pointer;
 }
+.word-guessing-btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .form-group{
     width: 1440px;
 }
@@ -146,17 +150,43 @@ input[type ="submit"]:hover{
     padding: 20px;
     background-color: #2DADA5;
     color: whitesmoke;
+    margin-bottom: 20px;
+    display: block;
 }
-textarea{
-    width: 750px;
-    height: 150px;
+.winners-list h1{
+    font-size: 24px;
 }
+.winners-list span{
+    color: red;
+}
+.info{
+    width: 1000px;
+    margin: 35px auto;
+    display: grid;
+    justify-content: center;
+    /*align-content: center;*/
+    grid-auto-flow: column;
+    gap: 20px;
 
-textarea::placeholder{
-    text-align: center;
 }
-.info{}
-.score-board{}
-.rules{}
-.rules ul{}
-.rules ul li{}
+.score-board{
+    width: 500px;
+    border: 2px solid #8E35D4;
+    margin-right: 50px;
+}
+.score-board h1{
+    font-size: 24px;
+    margin: 15px;
+    color: black;
+}
+.rules{
+    width: 500px;
+    border: 2px solid #8E35D4;
+}
+.rules ul{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.rules ul li{
+
+}
