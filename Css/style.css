@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fix::before, .fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    line-height: 22px;
+}
+main{
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+}
+.intro{
+    display: grid;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: #2DADA5;
+    color: whitesmoke;
+}
+.intro h1{}
+.choosing-games{
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+
+
+    gap: 20px;
+}
+.number-game{
+    width: 547px;
+    display: block;
+    /*//float: left;*/
+}
+.number-game img, .word-game img{
+    border: 2px solid red;
+    border-radius: 8px;
+    width: 400px;
+    height: 267px;
+    margin-bottom: 50px;
+    -moz-box-shadow: 0 6px 5px #ccc;
+    -webkit-box-shadow: 0 6px 5px #ccc;
+    box-shadow: 0 6px 5px #ccc;
+    transition: all .5s;
+}
+
+.number-game img:hover, .word-game img:hover{
+    transform: scale(1.1);
+}
+
+.number-game h2 a, .word-game h2 a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #8E35D4;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+.number-game h2 a:hover, .word-game h2 a:hover{
+    background-color: #2DADA5;
+}
+.word-game{
+    width: 547px;
+    display: block;
+}
+
+.word-guessing-btn{
+    display: grid;
+    margin-right: 47px;
+    justify-content: right;
+    padding-bottom: 20px;
+}
+/*Number game css*/
+button{
+    padding: 10px;
+    background-color: #395DDB;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #2DADA5;
+    cursor: pointer;
+}
+.form-group{
+    width: 1440px;
+}
+form{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+
+    gap: 20px;
+}
+.pl-name{
+    display: block;
+    padding-bottom: 50px;
+    font-size: 64px;
+    font-family: 'Roboto Slab', sans-serif ;
+}
+.player-one{
+    width: 560px;
+}
+.player-two{
+    width: 560px;
+}
+input[type ="number"]{
+    width: 500px;
+    display: block;
+    padding: 5px;
+    border: 2px solid #8E35D4;
+    border-radius: 20px;
+    margin: 20px 20px 20px 0;
+}
+input[type ="submit"]{
+    padding: 8px 30px 8px 30px;
+    margin-right: 20px;
+    background-color: #2DADA5;
+    color: whitesmoke;
+    font-size: large;
+    border-radius: 14px;
+}
+
+input[type ="submit"]:hover{
+    background-color: #8E35D4;
+    cursor: pointer;
+}
+
+.winners-board{
+    display: grid;
+    justify-content: center;
+    margin: 70px;
+}
+.winners-board h2{
+    text-align: center;
+    padding: 20px;
+    background-color: #2DADA5;
+    color: whitesmoke;
+}
+textarea{
+    width: 750px;
+    height: 150px;
+}
+
+textarea::placeholder{
+    text-align: center;
+}
+.info{}
+.score-board{}
+.rules{}
+.rules ul{}
+.rules ul li{}
