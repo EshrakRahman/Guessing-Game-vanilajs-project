@@ -18,21 +18,21 @@
             <div class="player-one">
                 <label class="pl-name" for="player1">Player - 1</label>
                 <input type="number" id="player1" name="pl1" placeholder="Choose a number..">
-                <input type="submit" value="Submit">
-                <input type="submit" value="Reset">
+                <button class="pl1-submit">Submit</button>
+                <button class="reset">Reset</button>
             </div>
             <div class="player-two">
                 <label class="pl-name" for="player2">Player - 2</label>
                 <input type="number" id="player2" name="pl2" placeholder="Choose a number..">
-                <input type="submit" value="Submit">
-                <input type="submit" value="Reset">
+                <button class="pl2-submit">Submit</button>
+                <button class="reset">Reset</button>
             </div>
 
         </form>
         <div class="info">
             <div class="score-board">
-                <h1>Player one Score:<span></span></h1>
-                <h1>Player two Score:<span></span></h1>
+                <h1>Player one Score: <span class="score"></span></h1>
+                <h1>Player two Score: <span class="scoreTwo"></span></h1>
             </div>
             <div class="rules">
                 <ul>
@@ -49,5 +49,6 @@
         </div>
     </div>
 </main>
+<script src="numberGame.js"></script>
 </body>
 </html>
